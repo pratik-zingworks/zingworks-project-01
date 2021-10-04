@@ -1,8 +1,7 @@
 .SignIn-container{
     margin: auto;
     position: relative;
-    top: 112px;
-    left: 6px;
+    top: 100px;
     padding: 12px;
     width: 400px;
     min-height: 240px;
@@ -49,7 +48,6 @@
 @media only screen and (max-width:480px) {
     .SignIn-container{
         width: 98%;
-        left: 0;
     }
     .SignIn-container .SignIn-body .bottomHandler{
         flex-direction: column;
