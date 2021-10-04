@@ -25,6 +25,7 @@
 }
 .SignIn-container .SignIn-body .bottomHandler{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -44,4 +45,13 @@
    position: relative;
    top: 1px;
    font-size: 16px;
+}
+@media only screen and (max-width:480px) {
+    .SignIn-container{
+        width: 98%;
+    }
+    .SignIn-container .SignIn-body .bottomHandler{
+        flex-direction: column;
+    }
+
 }

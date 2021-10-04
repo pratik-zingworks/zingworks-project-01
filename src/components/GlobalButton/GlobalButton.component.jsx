@@ -9,7 +9,10 @@ const GlobalButton = ({Title, Type}) => {
                 "&:hover" : {
                     backgroundColor: "#37328a",
                 },
-            }}>{Title.toUpperCase()}</Button>
+                '@media(maxWidth: 480px)' : {
+                    width: '80% !important'
+                  }
+            }} fullWidth>{Title.toUpperCase()}</Button>
         </div>
      );
 }
