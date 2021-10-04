@@ -49,6 +49,7 @@
 @media only screen and (max-width:480px) {
     .SignIn-container{
         width: 98%;
+        left: 0;
     }
     .SignIn-container .SignIn-body .bottomHandler{
         flex-direction: column;
