@@ -1,0 +1,42 @@
+.SignIn-container{
+    margin: auto;
+    position: relative;
+    top: 80px;
+    padding: 12px;
+    width: 400px;
+    min-height: 240px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 20px;
+}
+.SignIn-container .SignIn-head{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+.SignIn-container .SignIn-body{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+.SignIn-container .SignIn-body .bottomHandler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.SignIn-container .SignIn-body .bottomHandler p{
+    display: block;
+    text-align: left;
+}
+.SignIn-container .SignIn-body .bottomHandlerCheckbox{
+    display: block;
+    width: 100%;
+    text-align: left;
+    /* margin-top: 8px; */
+}
+.SignIn-container .SignIn-body .bottomHandlerCheckbox label{
+   margin-left: 8px;
+}
