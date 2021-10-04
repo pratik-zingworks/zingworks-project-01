@@ -32,6 +32,7 @@
 .SignIn-container .SignIn-body .bottomHandler p{
     display: block;
     text-align: left;
+    margin-left: 1px;
 }
 .SignIn-container .SignIn-body .bottomHandlerCheckbox{
     display: block;
@@ -40,5 +41,7 @@
     /* margin-top: 8px; */
 }
 .SignIn-container .SignIn-body .bottomHandlerCheckbox label{
-   margin-left: 8px;
+   position: relative;
+   top: 1px;
+   font-size: 16px;
 }
