@@ -24,7 +24,6 @@ const SignIn = () => {
                         <input type="checkbox" name="Remember me." />
                         <label>Remember me.</label>
                     </span>
-                    <input type="text" placeholder="testing "/>
                     <div className="bottomHandler">
                         <p>Don't have an account? Sign Up</p>
                         <GlobalButton Title = "sign in" Type = "submit"/>
